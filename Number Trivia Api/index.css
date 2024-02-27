@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  body {
+    background-color: cadetblue;
+    display: grid;
+    height: 100vh;
+    place-items: center;
+  }
+  .container {
+    background-color:white;
+    max-width: 750px;
+    width: 100%;
+    padding: 25px 30px;
+    border-radius: 5px;
+    position: relative;
+  }
+  .search-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .container input,
+  .container button {
+    font-size: 1.25em;
+    outline: none;
+    border: none;
+    border-radius: 0.4em;
+  }
+  .container input {
+    width: 40%;
+    border: 1px solid #bdbdbf;
+    padding: 0.6em;
+  }
+  .container button {
+    width: 55%;
+    background-color: cadetblue;
+    color: #ffffff;
+    font-weight: 500;
+    padding: 0.7em;
+    cursor: pointer;
+  }
+  #ran-fact-btn {
+    width: 100%;
+    margin-top: 1em;
+  }
+  .fact {
+    background-color: #ffffff;
+    box-shadow: 0 0 1.2em rgba(0, 4, 52, 0.1);
+    margin: 3em auto 0 auto;
+    padding: 2.8em 1.8em;
+    border-radius: 0.6em;
+    border: 5px solid cadetblue;
+    display: none;
+  }
+  .fact h2 {
+    font-size: 2.8em;
+    color: #181a34;
+  }
+  .fact p {
+    font-size: 1.15em;
+    font-weight: 400;
+    color: #50526b;
+    line-height: 1.8em;
+    text-align: justify;
+    margin-top: 0.8em;
+  }
+  p.msg {
+    text-align: center;
+    font-weight: 500;
+    color: #181a34;
+  }
